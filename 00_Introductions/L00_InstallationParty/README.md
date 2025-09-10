@@ -1,4 +1,4 @@
-# MAS-2526 Installation Party
+# MAS ETH DFAB 2526 Installation Party
 
 > Welcome! Please follow the steps below to prepare your environment for the course.
 
