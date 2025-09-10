@@ -12,6 +12,9 @@ Here you'll find all the resources, code, and documentation you need for a succe
 ---
 
 ### 🦏🐍🦗  Rhinos, pythons, grasshoppers and other creatures
+
+Despite the variety of animal themed softwares, we are still very much an architecture and digital fabrication programme. 
+
 Check out this classic [xkcd comic about Python](https://xkcd.com/353/) for a quick laugh!
 
 
