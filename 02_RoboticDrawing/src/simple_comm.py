@@ -58,9 +58,10 @@ def send_script(script_to_send,robot_ip):
         raise Exception("Program too long")
 
     try:
-        s.send(script_to_send)
-    except:
-        print("failed to send")
+        s.send(script_to_send.encode('utf-8'))
+        print("script sent")
+    except Exception as e:
+        print("failed to send:", e)
     s.close()
 
 def listen_to_robot(robot_ip):
