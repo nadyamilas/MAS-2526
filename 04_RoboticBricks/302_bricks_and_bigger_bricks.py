@@ -174,8 +174,8 @@ try:
     brick_frames = data["frames"]
     ext_axes = get_external_axes_for_wobj(wobj)
 
-    for frame in brick_frames[7:]:
-        frame = fine_adjust_z(frame, adjustment=5.0)
+    for frame in brick_frames:
+        frame = fine_adjust_z(frame, adjustment=3.0)
         pick_a_brick()
         place_a_brick(frame, ext_axes, wobj=wobj)
 
